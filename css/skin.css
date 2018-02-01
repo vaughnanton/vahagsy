@@ -11,10 +11,10 @@ body {
 }
 
 a {
-  color:#fff;
+  color:#fff !important;
 }
 
-a:hover {
+a:hover, a:active {
   text-decoration: none;
   color: #fff;
 }
