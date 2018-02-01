@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #ff70a4;
+  overflow: hidden;
+  perspective: 600px;
+}
+
+a {
+  color:#fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+li {
+  padding: 5px;
+}
+
+p {
+  letter-spacing: .5px;
+}
+
+.logo {
+  margin-top: 4%;
+  color: #fff;
+}
+
+.email, p, .fa-xs {
+  display: inline-block;
+}
+
+.fa-xs {
+  margin:2px;
+}
+.appear {
+  opacity: 0;
+  animation-name: appear;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*GRADIENT*/
+
+@import url('https://fonts.googleapis.com/css?family=Gruppo');
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gruppo', cursive;
+  color: #fff;
+}
+.box-detail {
+  text-align: center;
+}
+.box-detail .title {
+  font-size: 60px;
+  letter-spacing: 30px;
+}
+.box-detail .shot-dest {
+  margin-top: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 6px;
+}
+.box-detail .button {
+  margin-top: 18px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: linear-gradient(10deg, rgba(0, 0, 0, 0.1) 60%, rgba(255, 255, 255, 0.1) 100%);
+}
+.bg-animation, .bg-animation > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.bg-animation > div {
+  will-change: opacity;
+}
+.bg-animation .bg-1 {
+  background: linear-gradient(180deg, #f9dea1 60%, #9bdaff 100%);
+}
+.bg-animation .bg-2 {
+  background: linear-gradient(300deg, #f9c3f5 60%, #9bdaff 100%);
+  animation: bg-fade-1 6s linear infinite;
+}
+.bg-animation .bg-3 {
+  background: linear-gradient(10deg, #bab2fc 60%, #9bdaff 100%);
+  animation: bg-fade-2 6s linear infinite;
+}
+
+@keyframes bg-fade-1 {
+  0% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bg-fade-2 {
+  0% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*float*/
+#main {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  margin-top: 200px;
+}
+
+span#one {
+  position: relative;
+  animation: doubleyou 5s;
+}
+span#two {
+  position: relative;
+  animation: oh 5s;
+}
+span#three {
+  position: relative;
+  animation: are 5s;
+}
+span#four {
+  position: relative;
+  animation: dee 5s;
+}
+span#five {
+  position: relative;
+  animation: ess 5s;
+}
+span#six {
+  position: relative;
+  animation: dollah 5s;
+}
+span#seven {
+  position: relative;
+  animation: why 5s;
+}
+
+@keyframes doubleyou {
+    0%   {top: -200px;opacity:0}
+    25%  {top: 200px;}
+    100% {top: 0px;}
+}
+
+@keyframes oh {
+    0%   {top: -100px;opacity:0}
+    25%  {top: 60px;}
+    100% {top: 0px;}
+}
+
+@keyframes are {
+    0%   {top: 0px;opacity:0}
+    25%  {top: 120px;}
+    100% {top: 0px;}
+}
+
+@keyframes dee {
+    0%   {top: -400px;opacity:0}
+    25%  {top: 260px;}
+    100% {top: 0px;}
+}
+
+@keyframes ess {
+    0%   {top: -50px;opacity:0}
+    25%  {top: 200px;}
+    100% {top: 0px;}
+}
+@keyframes dollah {
+    0%   {top: -300px;opacity:0}
+    25%  {top: 360px;}
+    100% {top: 0px;}
+}
+
+@keyframes why {
+    0%   {top: -80px;opacity:0}
+    25%  {top: 250px;}
+    100% {top: 0px;}
+}
