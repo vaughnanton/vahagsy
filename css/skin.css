@@ -152,7 +152,6 @@ html, body {
   }
 }
 
-
 /*float*/
 #main {
   width: 100%;
@@ -167,31 +166,31 @@ p {
 
 span#one {
   position: relative;
-  animation: doubleyou 5s;
+  animation: doubleyou 5s, dubstep .6s ease-in-out 5.5s infinite;
 }
 span#two {
   position: relative;
-  animation: oh 5s;
+  animation: oh 5s, dubstep .6s ease-in-out 5.5s infinite;
 }
 span#three {
   position: relative;
-  animation: are 5s;
+  animation: are 5s, dubstep .6s ease-in-out 5.5s infinite;
 }
 span#four {
   position: relative;
-  animation: dee 5s;
+  animation: dee 5s, dubstep .6s ease-in-out 5.5s infinite;;
 }
 span#five {
   position: relative;
-  animation: ess 5s;
+  animation: ess 5s, dubstep .6s ease-in-out 5.5s infinite;;
 }
 span#six {
   position: relative;
-  animation: dollah 5s;
+  animation: dollah 5s, dubstep .6s ease-in-out 5.5s infinite;;
 }
 span#seven {
   position: relative;
-  animation: why 5s;
+  animation: why 5s, dubstep .6s ease-in-out 5.5s infinite;;
 }
 
 @keyframes doubleyou {
@@ -234,6 +233,30 @@ span#seven {
     25%  {top: 250px;}
     100% {top: 0px;}
 }
+
+@keyframes dubstep {
+    0% {
+      text-shadow: 0 0 0 #fff;
+    }
+    40% {
+      text-shadow: 3px 0 0 #ffaa22;
+    }
+    43% {
+      text-shadow: 3px 0 0 #ffaa22, 15px 0 0 #aa22ff, -7px 0 0 #aaff22;
+      color: #f1f1f1;
+    }
+    44% {
+      text-shadow: 3px 0 0 #ffaa22, 15px 2px 0 #aa22ff, -7px -1.5px 0 #aaff22;
+      color: rgba(0,0,0,0.2);
+    }
+    45% {
+      text-shadow: 3px 0 0 #ffaa22, 15px 0 0 #aa22ff, -7px 0 0 #aaff22;
+      color: #f1f1f1;
+    }
+    100% {
+      text-shadow: 0 0 0 #fff;
+    }
+  }
 
 /*MEDIA QUERIES*/
 
