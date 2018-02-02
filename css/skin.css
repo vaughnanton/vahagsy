@@ -51,8 +51,8 @@ p {
 .appear {
   opacity: 0;
   animation-name: appear;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 6s;
+  animation-delay: 2.495s;
   animation-fill-mode: forwards;
 }
 @keyframes appear {
@@ -166,31 +166,31 @@ p {
 
 span#one {
   position: relative;
-  animation: doubleyou 5s, dubstep .6s ease-in-out 5.5s infinite;
+  animation: doubleyou 7s, dubstep .495s  10s 64;
 }
 span#two {
   position: relative;
-  animation: oh 5s, dubstep .6s ease-in-out 5.5s infinite;
+  animation: oh 7s, dubstep .495s  10s 64;
 }
 span#three {
   position: relative;
-  animation: are 5s, dubstep .6s ease-in-out 5.5s infinite;
+  animation: are 7s, dubstep .495s  10s 64;
 }
 span#four {
   position: relative;
-  animation: dee 5s, dubstep .6s ease-in-out 5.5s infinite;;
+  animation: dee 7s, dubstep .495s  10s 64;
 }
 span#five {
   position: relative;
-  animation: ess 5s, dubstep .6s ease-in-out 5.5s infinite;;
+  animation: ess 7s, dubstep .495s  10s 64;
 }
 span#six {
   position: relative;
-  animation: dollah 5s, dubstep .6s ease-in-out 5.5s infinite;;
+  animation: dollah 7s, dubsteps .495s  10s 64;
 }
 span#seven {
   position: relative;
-  animation: why 5s, dubstep .6s ease-in-out 5.5s infinite;;
+  animation: why 7s, dubstep .495s  10s 64;
 }
 
 @keyframes doubleyou {
@@ -242,21 +242,45 @@ span#seven {
       text-shadow: 3px 0 0 #ffaa22;
     }
     43% {
-      text-shadow: 3px 0 0 #ffaa22, 15px 0 0 #aa22ff, -7px 0 0 #aaff22;
+      text-shadow: 3px 0 0 #ffaa22, 12px 0 0 #70d1ff, -8px 0 0 #fcabf8;
       color: #f1f1f1;
     }
     44% {
-      text-shadow: 3px 0 0 #ffaa22, 15px 2px 0 #aa22ff, -7px -1.5px 0 #aaff22;
+      text-shadow: 3px 0 0 #ffaa22, 12px 2px 0 #70d1ff, -8px -2px 0 #fcabf8;
       color: rgba(0,0,0,0.2);
     }
     45% {
-      text-shadow: 3px 0 0 #ffaa22, 15px 0 0 #aa22ff, -7px 0 0 #aaff22;
+      text-shadow: 3px 0 0 #ffaa22, 12px 0 0 #70d1ff, -8px 0 0 #fcabf8;
       color: #f1f1f1;
     }
     100% {
       text-shadow: 0 0 0 #fff;
     }
   }
+
+  @keyframes dubsteps {
+      0% {
+        text-shadow: 0 0 0 #fff;
+      }
+      40% {
+        text-shadow: 3px 0 0 #42f442;
+      }
+      43% {
+        text-shadow: 3px 0 0 #42f442, 12px 0 0 #70d1ff, -8px 0 0 #fcabf8;
+        color: #f1f1f1;
+      }
+      44% {
+        text-shadow: 3px 0 0 #42f442, 12px 2px 0 #70d1ff, -8px -2px 0 #fcabf8;
+        color: rgba(0,0,0,0.2);
+      }
+      45% {
+        text-shadow: 3px 0 0 #42f442, 12px 0 0 #70d1ff, -8px 0 0 #fcabf8;
+        color: #f1f1f1;
+      }
+      100% {
+        text-shadow: 0 0 0 #fff;
+      }
+    }
 
 /*MEDIA QUERIES*/
 
