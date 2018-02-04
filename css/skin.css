@@ -51,16 +51,13 @@ p {
 .appear {
   opacity: 0;
   animation-name: appear;
-  animation-duration: 6s;
-  animation-delay: 2.495s;
+  animation-duration: 8s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes appear {
-  0% {
+  80% {
     opacity: 0;
-  }
-  50% {
-    opacity: .2;
   }
   100% {
     opacity: 1;
@@ -166,58 +163,58 @@ p {
 
 span#one {
   position: relative;
-  animation: doubleyou 7s, dubstep .495s  10s 64;
+  animation: vee 9s, dubstep .495s  10s 64;
 }
 span#two {
   position: relative;
-  animation: oh 7s, dubstep .495s  10s 64;
+  animation: ay 9s, dubstep .495s  10s 64;
 }
 span#three {
   position: relative;
-  animation: are 7s, dubstep .495s  10s 64;
+  animation: eych 9s, dubstep .495s  10s 64;
 }
 span#four {
   position: relative;
-  animation: dee 7s, dubstep .495s  10s 64;
+  animation: ayy 9s, dubstep .495s  10s 64;
 }
 span#five {
   position: relative;
-  animation: ess 7s, dubstep .495s  10s 64;
+  animation: ji 9s, dubstep .495s  10s 64;
 }
 span#six {
   position: relative;
-  animation: dollah 7s, dubsteps .495s  10s 64;
+  animation: dollah 9s, dubsteps .495s  10s 64;
 }
 span#seven {
   position: relative;
-  animation: why 7s, dubstep .495s  10s 64;
+  animation: why 9s, dubstep .495s  10s 64;
 }
 
-@keyframes doubleyou {
+@keyframes vee {
     0%   {top: -200px;opacity:0}
     25%  {top: 200px;}
     100% {top: 0px;}
 }
 
-@keyframes oh {
+@keyframes ay {
     0%   {top: -100px;opacity:0}
-    25%  {top: 60px;}
+    25%  {top: 150px;}
     100% {top: 0px;}
 }
 
-@keyframes are {
+@keyframes eych {
     0%   {top: 0px;opacity:0}
-    25%  {top: 120px;}
+    25%  {top: 300px;}
     100% {top: 0px;}
 }
 
-@keyframes dee {
+@keyframes ayy {
     0%   {top: -400px;opacity:0}
     25%  {top: 260px;}
     100% {top: 0px;}
 }
 
-@keyframes ess {
+@keyframes ji {
     0%   {top: -50px;opacity:0}
     25%  {top: 200px;}
     100% {top: 0px;}
